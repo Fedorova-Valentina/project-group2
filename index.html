@@ -6,123 +6,82 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vanilla App Template</title>
     <script type="module" crossorigin src="/project-group2/index.js"></script>
-    <link rel="stylesheet" crossorigin href="/project-group2/assets/styles-DvPDDfy5.css">
+    <link rel="stylesheet" crossorigin href="/project-group2/assets/index-CKI_l3DC.css">
   </head>
   <body>
-    <header class="header">
-  <div class="container">
-    <nav class="nav">
-      <a class="nav-logo" href="./index.html" aria-label="Site logo">
-        <svg class="nav-logo-icon" width="100" height="30">
-          <use href="/project-group2/assets/sprite-E8vg0sBb.svg#logo"></use>
-        </svg>
-      </a>
-      <ul class="nav-list">
-        <li class="nav-item">
-          <a class="nav-link {=$highlight-act}" href="./page-2.html">Page 2</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link {=$highlight-curr}" href="./page-3.html">Page 3</a>
-        </li>
-      </ul>
-    </nav>
-  </div>
-</header>
-
-
     <main>
       <!-- Loads the specified .html file -->
-      <section class="vite-promo">
-  <div class="container">
-    <div class="vite-promo-thumb">
-      <a
-        class="vite-promo-link"
-        href="https://vitejs.dev/"
-        target="_blank"
-        rel="noopener noreferrer"
-        aria-label="Link to Vite official website"
-        title="Vite.js  build tool"
-      >
-        <!-- Path to images as from index.html file -->
-        <img
-          class="pic"
-          src="/project-group2/assets/vite-logo-9o_aqrTe.png"
-          alt="Vite logo"
-          width="640"
-          height="640"
-        />
-      </a>
-    </div>
-    <h1 class="main-title">
-      <span class="main-title-gradient">Vite</span>
-      Template by
-      <a
-        class="main-title-link"
-        href="https://github.com/goitacademy/vanilla-app-template"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        GoIT
-      </a>
-    </h1>
-  </div>
-</section>
+      <section class="gallery">
+  <div class="container gallery-container">
+    <h2 class="gallery-title">Галерея зображень</h2>
+    <p class="gallery-text">EcoTotes у повсякденному житті</p>
 
-      <article class="badges">
-  <div class="container">
-    <ul class="badges-list">
-      <li class="badges-item">
-        <a
-          class="badges-link"
-          href="https://www.npmjs.com/package/vite-plugin-html-inject"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          HTML Inject
-        </a>
+    <ul class="gallery-list">
+      <li class="gallery-item">
+        <picture>
+          <source
+            srcset="/project-group2/assets/ecototeplaced1x-Y3LRQaQz.jpg, /project-group2/assets/ecototeplaced2x-iuXw8-GW.jpg" />
+          <source
+            srcset="/project-group2/assets/eco_tote_placed_on_a_chair_1x_tablet-CsFNMqPw.jpg, /project-group2/assets/eco_tote_placed_on_a_chair_2x_tablet-2cTn003q.jpg"
+            media="(min-width: 768px)" />
+          <source
+            srcset="/project-group2/assets/eco_tote_placed_on_a_chair_1x_desctop-Bl7YnFUT.jpg, /project-group2/assets/eco_tote_placed_on_a_chair_2x_desctop-Dg5ijdye.jpg"
+            media="(min-width: 1158px)" />
+
+          <img src="/project-group2/assets/ecototeplaced1x-Y3LRQaQz.jpg"
+        /></picture>
       </li>
-      <li class="badges-item">
-        <a
-          class="badges-link"
-          href="https://www.npmjs.com/package/vite-plugin-full-reload"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Full Reload
-        </a>
+
+      <li class="gallery-item">
+        <picture>
+          <source
+            srcset="/project-group2/assets/stylishperson1x-Bh7SW6m9.jpg, /project-group2/assets/stylishperson2x-DXzGvxY8.jpg" />
+          <source
+            srcset="/project-group2/assets/stylish_person_carries_1x_tablet-CPO84LtX.jpg, /project-group2/assets/stylish_person_carries_2x_tablet-DWwrspBu.jpg"
+            media="(min-width: 768px)" />
+          <source
+            srcset="/project-group2/assets/stylish_person_carries_a_tote_bag_1x_desctop-D8q33rMv.jpg, /project-group2/assets/stylish_person_carries_a_tote_bag_2x_desctop-kbBSl8IO.jpg"
+            media="(min-width: 1158px)" />
+
+          <img src="/project-group2/assets/stylishperson1x-Bh7SW6m9.jpg"
+        /></picture>
       </li>
-      <li class="badges-item">
-        <a
-          class="badges-link"
-          href="https://www.npmjs.com/package/postcss-sort-media-queries"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Sort Media Queries
-        </a>
+      <li class="gallery-item">
+        <picture>
+          <source
+            srcset="/project-group2/assets/personwalking1x-BB_XUjGt.jpg, /project-group2/assets/personwalking2x-DecOIGMm.jpg" />
+          <source
+            srcset="/project-group2/assets/person_walking_through_a_park_1x_tablet-3yLaEFMN.jpg, /project-group2/assets/person_walking_through_a_park_2x_tablet-BexopNTO.jpg"
+            media="(min-width: 768px)" />
+          <source
+            srcset="/img/gallery/person_walking_through_a_park_1x_desctop.jpg, /img/gallery/person_walking_through_a_park_2x_desctop.jpg"
+            media="(min-width: 1158px)" />
+
+          <img src="/project-group2/assets/personwalking1x-BB_XUjGt.jpg"
+        /></picture>
+      </li>
+      <li class="gallery-item">
+        <picture>
+          <source
+            srcset="/project-group2/assets/youngwoman1x-DSSq7-zq.jpg, /project-group2/assets/youngwoman2x-B2bwlRxY.jpg"
+          />
+          <source
+            srcset="/project-group2/assets/young_woman_1x_tablet-BdULj9YS.jpg, /project-group2/assets/young_woman_2x_tablet-DorWses2.jpg"
+            media="(min-width: 768px)"
+          />
+          <source
+            srcset="/img/gallery/young_woman_holding a_1x_desctop.jpg, /img/gallery/young_woman_holding a_2x_desctop.jpg"
+            media="(min-width: 1158px)"
+          />
+
+          <img src="/img/gallery/youngwoman1x.jpg " />
+        </picture>
       </li>
     </ul>
   </div>
-</article>
+</section>
 
     </main>
-
-    <footer class="footer">
-  <div class="container">
-    <p class="footer-desc">
-      Made with ✨ by
-      <a
-        class="footer-link"
-        href="https://goit.global/ua/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        GoIT team
-      </a>
-    </p>
-  </div>
-</footer>
-
 
   </body>
 </html>
